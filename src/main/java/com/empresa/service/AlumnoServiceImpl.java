@@ -35,11 +35,7 @@ public class AlumnoServiceImpl implements AlumnoService{
 		return repository.findByIdAlumno(idAlumno);
 	}
 
-	@Override
-	public List<Medicamento> listaMedicamentos() {
-		// TODO Auto-generated method stub
-		return repository.findAll();
-	}
+	
 	
 
 }
